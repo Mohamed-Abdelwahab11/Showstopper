@@ -1,0 +1,45 @@
+# ============================================================
+#  Showstopper — AI News Analyst  |  Configuration
+# ============================================================
+
+ingestion:
+  max_articles: 100          # max articles to fetch per topic query
+  language: en               # article language filter
+  sort_by: relevancy         # relevancy | popularity | publishedAt
+  days_back: 7               # how many days back to search
+
+chunking:
+  chunk_size: 500            # characters per chunk
+  chunk_overlap: 60          # overlap to preserve context at boundaries
+
+retrieval:
+  top_k: 8                   # number of chunks to retrieve
+  use_mmr: true              # Maximal Marginal Relevance (reduces redundancy)
+  mmr_lambda: 0.6            # MMR diversity weight (0=max diversity, 1=max relevance)
+  score_threshold: 0.0       # minimum similarity score (0.0 = no filter)
+
+llm:
+  provider: demo             # openai | groq | demo  (overridden by .env LLM_PROVIDER)
+  openai_model: gpt-4o-mini
+  groq_model: llama-3.1-8b-instant
+  temperature: 0.3
+  max_tokens: 1200
+  streaming: true
+
+embedding:
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  batch_size: 64
+  device: cpu                # cpu | cuda
+
+vectorstore:
+  index_path: data/faiss_index
+  metadata_path: data/faiss_metadata.pkl
+
+analysis:
+  sentiment_method: vader    # vader | textblob | composite
+  min_bias_confidence: 0.4   # minimum confidence to flag bias
+
+ui:
+  page_title: "Showstopper — AI News Analyst"
+  max_chat_history: 50
+  stream_delay_ms: 20        # artificial streaming delay (ms per token)

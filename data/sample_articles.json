@@ -1,0 +1,82 @@
+[
+  {
+    "source": {"id": "bbc-news", "name": "BBC News"},
+    "author": "BBC Staff",
+    "title": "AI Regulation: EU Takes Historic Step with Landmark Artificial Intelligence Act",
+    "description": "The European Union has passed the world's first comprehensive artificial intelligence regulation, setting strict rules for high-risk AI systems.",
+    "url": "https://www.bbc.com/news/technology/ai-regulation-eu-act",
+    "content": "The European Union has passed the world's first comprehensive artificial intelligence regulation. The AI Act introduces a risk-based framework that categorizes AI systems from minimal risk to unacceptable risk. High-risk applications, such as those used in healthcare, education, and law enforcement, will face strict requirements around transparency, human oversight, and data governance. Critics argue the regulation may stifle innovation while proponents say it is necessary to protect citizens from opaque algorithms.",
+    "publishedAt": "2025-01-10T09:00:00Z",
+    "query_topic": "AI regulation"
+  },
+  {
+    "source": {"id": "reuters", "name": "Reuters"},
+    "author": "Jane Smith",
+    "title": "Tech Giants Lobby Against New AI Rules as EU Deadline Approaches",
+    "description": "Major technology companies including Google, Microsoft, and Meta are pushing back against proposed artificial intelligence regulations.",
+    "url": "https://www.reuters.com/technology/tech-giants-lobby-ai-rules",
+    "content": "Major technology companies including Google, Microsoft, and Meta are intensifying lobbying efforts against proposed European AI regulations. Industry groups argue that overly strict rules could push AI development outside Europe and harm competitiveness. The companies are particularly opposed to requirements for explainability in large language models, saying such demands are technically infeasible. European officials maintain that the rules are necessary to ensure safety and fundamental rights.",
+    "publishedAt": "2025-01-11T14:30:00Z",
+    "query_topic": "AI regulation"
+  },
+  {
+    "source": {"id": "the-guardian", "name": "The Guardian"},
+    "author": "Alice Johnson",
+    "title": "Why AI Regulation Is Not Enough: The Case for a Complete Overhaul",
+    "description": "Experts argue that piecemeal AI regulation fails to address systemic inequalities embedded in algorithmic decision-making.",
+    "url": "https://www.theguardian.com/technology/ai-regulation-not-enough",
+    "content": "Civil society organizations and academics are warning that current AI regulation proposals fail to tackle the root causes of algorithmic discrimination. The Guardian's investigation found that AI systems deployed in hiring, lending, and criminal justice disproportionately harm marginalized communities. Experts call for mandatory algorithmic audits, robust redress mechanisms, and binding corporate accountability measures that go beyond what current legislation proposes.",
+    "publishedAt": "2025-01-12T08:00:00Z",
+    "query_topic": "AI regulation"
+  },
+  {
+    "source": {"id": "fox-news", "name": "Fox News"},
+    "author": "Bob Williams",
+    "title": "Biden's AI Regulators Are Killing American Innovation, Critics Warn",
+    "description": "Conservative voices argue that heavy-handed government regulation of AI threatens US technological leadership.",
+    "url": "https://www.foxnews.com/politics/ai-regulation-kills-innovation",
+    "content": "Conservative policy analysts and Republican lawmakers are sounding the alarm over what they describe as the Biden administration's overreach into artificial intelligence regulation. Critics contend that mandatory requirements for AI transparency, fairness audits, and human oversight create unnecessary bureaucratic burdens that will drive startups and established companies to move operations overseas. They argue the market should self-regulate through competition rather than government mandates.",
+    "publishedAt": "2025-01-13T16:00:00Z",
+    "query_topic": "AI regulation"
+  },
+  {
+    "source": {"id": "washington-post", "name": "Washington Post"},
+    "author": "Sarah Chen",
+    "title": "The AI Regulation Debate: Balancing Safety and Innovation",
+    "description": "A balanced look at the competing arguments shaping the global conversation on how to govern artificial intelligence.",
+    "url": "https://www.washingtonpost.com/technology/ai-regulation-debate",
+    "content": "As governments around the world rush to regulate artificial intelligence, experts disagree sharply on how to strike the right balance. Proponents of strong regulation point to documented cases of AI bias in healthcare and criminal justice, arguing these systems require oversight before widespread deployment. Industry advocates counter that premature regulation could stifle the benefits AI brings in areas like drug discovery and climate modeling. Most observers agree that some form of governance is necessary but disagree on its scope and pace.",
+    "publishedAt": "2025-01-14T11:00:00Z",
+    "query_topic": "AI regulation"
+  },
+  {
+    "source": {"id": "bloomberg", "name": "Bloomberg"},
+    "author": "Michael Torres",
+    "title": "AI Startups See $50B Investment Surge Despite Regulatory Uncertainty",
+    "description": "Venture capital investment in artificial intelligence companies hit a record $50 billion in 2024 even as regulatory frameworks remain in flux.",
+    "url": "https://www.bloomberg.com/news/ai-investment-surge-2024",
+    "content": "Venture capital investment in artificial intelligence companies reached a record $50 billion globally in 2024, according to new data from Bloomberg Intelligence. The surge comes despite ongoing uncertainty about how AI will be regulated in major markets. Investors appear to be betting that the technology's transformative potential outweighs regulatory risk. The United States accounts for roughly 60% of total investment, followed by the UK and China.",
+    "publishedAt": "2025-01-15T09:30:00Z",
+    "query_topic": "AI regulation"
+  },
+  {
+    "source": {"id": "axios", "name": "Axios"},
+    "author": "Dana Lee",
+    "title": "What the EU AI Act Means for American Companies",
+    "description": "American businesses face new compliance challenges as the European Union's AI Act begins to take effect.",
+    "url": "https://www.axios.com/eu-ai-act-american-companies",
+    "content": "American companies operating in Europe are scrambling to understand compliance requirements under the EU AI Act. Companies with revenue above certain thresholds must conduct conformity assessments for high-risk AI systems before deploying them in European markets. Legal experts estimate compliance costs could run into the tens of millions of dollars for large enterprises. Some companies are considering whether to offer separate AI products for European and non-European markets.",
+    "publishedAt": "2025-01-16T07:00:00Z",
+    "query_topic": "AI regulation"
+  },
+  {
+    "source": {"id": "npr", "name": "NPR"},
+    "author": "Elena Rodriguez",
+    "title": "Workers Fear Being Replaced By AI — What the Research Actually Shows",
+    "description": "NPR examines the evidence on AI's impact on employment, separating fear from fact.",
+    "url": "https://www.npr.org/ai-workers-jobs-research",
+    "content": "Surveys consistently show that a majority of American workers are worried about AI replacing their jobs. But research on AI's actual employment impact is more nuanced. Some studies find AI augments worker productivity and creates new roles. Others document automation-related job displacement, particularly in routine cognitive tasks. Economists generally agree the disruption will be uneven, with lower-wage workers in clerical and service roles facing greater risk than higher-skilled knowledge workers.",
+    "publishedAt": "2025-01-17T06:00:00Z",
+    "query_topic": "AI regulation"
+  }
+]

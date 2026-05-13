@@ -264,5 +264,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
-Built with ❤️ · Powered by NewsAPI, FAISS, and sentence-transformers
 </div>

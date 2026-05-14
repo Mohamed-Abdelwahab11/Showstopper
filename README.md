@@ -17,6 +17,16 @@
 
 ---
 
+## 📸 Preview
+
+| Landing Page | Analysis Dashboard |
+|:---:|:---:|
+| ![Landing Page](docs/screenshots/landing.png) | ![Analysis Dashboard](docs/screenshots/dashboard.png) |
+
+| Chat Interface | Bias Spectrum |
+|:---:|:---:|
+| ![Chat Interface](docs/screenshots/chat.png) | ![Bias Spectrum](docs/screenshots/bias.png) |
+
 ## ✨ Features
 
 | Feature | Description |

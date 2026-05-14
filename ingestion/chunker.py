@@ -11,7 +11,10 @@ import logging
 from pathlib import Path
 
 import yaml
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+try:
+    from langchain_text_splitters import RecursiveCharacterTextSplitter
+except ImportError:
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 from models.schemas import Article, Chunk, ChunkMetadata
 

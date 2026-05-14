@@ -17,6 +17,7 @@ faiss-cpu>=1.8.0
 # ── Embeddings ───────────────────────────────────────────────
 sentence-transformers>=3.0.0
 torch>=2.0.0
+torchvision>=0.16.0
 
 # ── LLM Providers ────────────────────────────────────────────
 openai>=1.30.0
